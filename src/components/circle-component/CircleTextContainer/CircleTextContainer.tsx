@@ -13,7 +13,7 @@ function CircleTextContainer() {
 	const [text, setText] = useState("");
 	const [value, setValue] = useState("50");
 	const [color, setColor] = useState("");
-	const [row, setRow] = useState(20);
+	const [row, setRow] = useState(10);
 	const [checked, setChecked] = useState(false);
 
 	const handleChange = (event: any) => {

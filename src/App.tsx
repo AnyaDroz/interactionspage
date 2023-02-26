@@ -1,14 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import CircleTextContainer from "./components/circle-component/CircleTextContainer/CircleTextContainer";
+import Homepage from "./pages/Homepage/Homepage";
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header">
-				<CircleTextContainer />
-			</header>
+		<div>
+			<Homepage />
 		</div>
 	);
 }

@@ -12,7 +12,7 @@ type StyledPageGridProps = {
 export const StyledPageGrid = styled.span<StyledPageGridProps>(
 	({ color }) => `
 	display: grid;
-	height: 100vh;
+	height: 100%;
 	background: ${color};
 `
 );
@@ -29,7 +29,7 @@ export const StyledInput = styled.input`
 export const StyledSliderInput = styled.input`
 	margin: auto;
 	-webkit-appearance: none;
-	width: 250px;
+	width: 40%;
 	height: 5px;
 	background: #ffffff;
 	outline: none;

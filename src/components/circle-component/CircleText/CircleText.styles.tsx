@@ -12,7 +12,7 @@ export const StyledLightText = styled.span<StyledTextProps>(
 	font-weight: 200;
 	line-height: 0.7;
 	font-size: ${fontSize};
-	
+	overflow: hidden;
 	color: ${color};
 `
 );
@@ -23,7 +23,7 @@ export const StyledBoldText = styled.span<StyledTextProps>(
 	font-weight: 600;
 	line-height: 0.7;
 	font-size: ${fontSize};
-	
+	overflow: hidden;
 	color: ${color};
 `
 );
@@ -65,11 +65,10 @@ export const StyledAltText = styled.div`
 `;
 
 export const StyledTextContainer = styled.div`
-	height: 500px;
-	top: 50px;
+	height: 400px;
 	position: relative;
 	display: flex;
 	overflow: hidden;
 	flex-direction: column;
-	clip-path: circle(250px);
+	clip-path: circle(200px);
 `;
